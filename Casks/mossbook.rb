@@ -1,11 +1,11 @@
 # Homebrew cask for Mossbook, rendered by .github/workflows/homebrew.yml into the
-# jakub-m-arch/homebrew-mossbook tap. Placeholders: 0.2.0, c903ec10c0d4fe0c0280798341125802e3581158afcfee80ce8b60dc5eb42108, 9cd4797ce4f1c552eda479506a219f740373d7caf44a21535746b654e3923319.
+# jakub-m-arch/homebrew-mossbook tap. Placeholders: 0.3.0, 7e7ad1ac05b06a97d5cbbe4d9cd202361d96c025ded26d61cca6106095ac7e86, c787a58d966a6a442116b27766595fbe8fd7a4f7de7e2ed3e23d0a0c401e2b37.
 cask "mossbook" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.2.0"
-  sha256 arm:   "c903ec10c0d4fe0c0280798341125802e3581158afcfee80ce8b60dc5eb42108",
-         intel: "9cd4797ce4f1c552eda479506a219f740373d7caf44a21535746b654e3923319"
+  version "0.3.0"
+  sha256 arm:   "7e7ad1ac05b06a97d5cbbe4d9cd202361d96c025ded26d61cca6106095ac7e86",
+         intel: "c787a58d966a6a442116b27766595fbe8fd7a4f7de7e2ed3e23d0a0c401e2b37"
 
   url "https://github.com/jakub-m-arch/mossbook/releases/download/v#{version}/Mossbook_#{version}_#{arch}.dmg"
   name "Mossbook"
